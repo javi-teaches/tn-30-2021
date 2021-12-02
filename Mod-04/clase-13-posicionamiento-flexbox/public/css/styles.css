@@ -1,0 +1,94 @@
+@import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', cursive;
+	background-color: #f2f2f2;
+}
+
+.main-header {
+	background-color: #EAC926;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.burger-menu {
+	background-color: #03264C;
+	color: #ffffff;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.products-container {
+	width: 90%;
+	margin: auto;
+	border: 1px solid #f00;
+}
+
+.product {
+	background-color: #fff;
+	padding: 15px;
+	margin: 15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	/* Flexbox */
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row; /* define el eje principal */
+
+	/* Alineación */
+	align-items: center; /* Eje => cross */
+	justify-content: space-around; /* Eje => main */
+}
+
+.product img,
+.product div {
+	width: 80px;
+}
+
+.product img {
+	align-self: flex-start;
+}
+
+@media (min-width: 560px) {
+	.header-container {
+		width: 90%;
+		margin: auto;
+		border: solid 5px red;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.logo {
+		width: 200px;
+		margin-right: 30px;
+	}
+
+	.promotion-text {
+		width: 100%;
+		background-color: rgba(0,0,0,0.3);
+		text-align: center;
+	}
+
+	.main-navbar {
+		display: none;
+	}
+}

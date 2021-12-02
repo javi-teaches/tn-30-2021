@@ -1,0 +1,22 @@
+@import url('normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+	font-family: 'Roboto', cursive;
+}
+
+.main-header {
+	background-color: #EAC926;
+}
+
+.burger-menu {
+	background-color: #03264C;
+	color: #ffffff;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	margin: auto;
+}
