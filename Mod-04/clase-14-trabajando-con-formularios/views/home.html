@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mercado Liebre</title>
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+	<!-- Cabecera de la página -->
+ 	<header class="main-header">
+		 <div class="header-container">
+			 <img src="/images/logo-mercado-liebre.svg" class="logo">
+			 
+			 <!-- Acá va la barra de búsqueda -->
+			 <form action="">
+				 <input type="text">
+				 <button><i class="fas fa-search"></i></button>
+			 </form>
+			 
+			 <p class="promotion-text">
+				 <i class="fas fa-hand-holding-usd"></i>
+				 Comprá en cuotas y sin tarjeta de crédito
+			 </p>
+	 
+			 <nav class="main-navbar">
+				 <ul class="nav-list">
+					 <li><a href="">Ofertas</a></li>
+					 <li><a href="">Tiendas Oficiales</a></li>
+					 <li><a href="">Vender</a></li>
+					 <li><a href="">Ayuda</a></li>
+				 </ul>
+				 
+				 <ul class="nav-list">
+					 <li><a href="">Creá tu cuenta</a></li>
+					 <li><a href="">Ingresá</a></li>
+					 <li><a href="">Mis compras</a></li>
+				 </ul>
+			 </nav>
+			 
+			 <div class="burger-menu">
+				 <i class="fas fa-bars"></i>
+			 </div>
+		 </div>
+	</header>
+	
+	<!-- Contenido principal -->
+	<main>
+		<!-- Formulario de Registro -->
+		<form action="/procesar" method="post">
+			<label >Correo electrónico:</label>
+			<input type="text" name="email" placeholder="user@mail.com">
+			
+			<br>
+
+			<label >Contraseña:</label>
+			<input type="password" name="password">
+
+			<br>
+			
+			<label >Edad:</label>
+			<input type="number" name="age">
+
+			<br>
+
+			<label>País de nacimiento:</label>
+			<select name="country">
+				<option value="ar">Argentina</option>
+				<option value="br">Brasil</option>
+				<option value="co">Colombia</option>
+				<option value="ec">Ecuador</option>
+				<option value="uy">Uruguay</option>
+			</select>
+
+			<br>
+
+			<label>Biografía:</label>
+			<textarea name="bio"></textarea>
+
+			<br>
+			<br>
+
+			<input type="checkbox" name="terms" id="terms" value="ok">
+			<label for="terms">Acepta términos y condiciones</label>
+
+			<br>
+			<br>
+
+			<p>¿Cual es tu seniority?</p>
+
+			<input type="radio" name="seniority" id="seniority-A" value="está iniciando">
+			<label for="seniority-A">Trainne</label>
+
+			<br>
+			
+			<input type="radio" name="seniority" id="seniority-B" value="va má' o menos">
+			<label for="seniority-B">Junior</label>
+
+			<br>
+			<input type="radio" name="seniority" id="seniority-C" value="ta' list@">
+			<label for="seniority-C">Semi Senior</label>
+
+			<br>
+
+			<input type="submit" value="Enviar">
+
+			<button type="submit">
+				<em>Enviar</em> 
+				<i class="fas fa-chevron-right"></i>
+			</button>
+		</form>
+
+		<!-- última visita -->
+		<section class="products-container">
+			<h3>Basado en tu última visita</h3>
+			
+			<article class="product">
+				<img src="/images/img-cafetera-moulinex.jpg" alt="imagen de producto" width="200">
+				<div>
+					<i class="fas fa-truck"></i>
+					<h2>$6.770</h2>
+					<span>40% OFF</span>
+					<p>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
+				</div>
+			</article>
+
+			<article class="product">
+				<img src="/images/img-macbook-pro-2019.jpg" alt="imagen de producto" width="200">
+				<div>
+					<i class="fas fa-truck"></i>
+					<h2>$150.970</h2>
+					<span>10% OFF</span>
+					<p>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
+				</div>
+			</article>
+		</section>
+
+		<!-- ofertas -->
+		<section class="products-container">
+			<h3>Ofertas del día</h3>
+		</section>
+	</main>
+
+	<!-- Pié o cierre de la página -->
+	<footer>
+		<h3>Copyright &copy;</h3>
+	</footer>
+</body>
+</html>
