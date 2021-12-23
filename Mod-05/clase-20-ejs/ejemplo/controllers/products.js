@@ -1,9 +1,24 @@
 const path = require('path');
 
+const productsList = [
+	'Tv',
+	'Compu',
+	'Teléfono',
+	'Heladera',
+	'Zapatillas',
+	'Cámara Web',
+	'Taza eléctrica'
+];
+
 const controller = {
 	products: (req, res) => {
-		const htmlPath = path.resolve(__dirname, '../views/products.html');
-		return res.sendFile(htmlPath);
+		return res.render(
+			'products', 
+			{
+				productsList: productsList,
+				developer: 'Javier'
+			}
+		);
 	},
 
 	create: (req, res) => {
