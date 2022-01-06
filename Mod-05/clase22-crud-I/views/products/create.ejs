@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+hola que tal
+<%- include('../partials/head', { pageTitle: 'Creación de productos' }) %>
+
+	<body>
+		<%- include('../partials/navbar') %>
+			<h2>Formulario para crear un producto</h2>
+			<form action="/products" method="post">
+				<div>
+					<label>Nombre:</label>
+					<input type="text" name="pdtName">
+				</div>
+				<div>
+					<label>Precio:</label>
+					<input type="text" name="pdtPrice">
+				</div>
+				<button type="submit">GUARDAR</button>
+			</form>
+	</body>
+
+</html>

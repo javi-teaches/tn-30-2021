@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head', { pageTitle: 'Home' }) %> 
+<body>
+	<%- include('partials/navbar') %> 
+	
+	<h2>Esta es la home</h2>
+	<hr>
+	<ul>
+		<% for( let i = 0; i < listadoUsuarios.length; i++ ) { %>
+		<li> 
+			<strong><%= listadoUsuarios[i].name %> </strong> <br>
+			<a href="/users/<%= listadoUsuarios[i].id %>">ver detalle</a>
+		</li>
+		<% } %>
+	</ul>
+	<hr>
+	<ul>
+		<% for( let i = 0; i < listadoPeliculas.length; i++ ) { %>
+		<li> 
+			<img src="/images/<%= listadoPeliculas[i].poster %>" alt=""> <br>
+			<strong><%= listadoPeliculas[i].name %> </strong> <br>
+			<em>Rating:</em> <%= listadoPeliculas[i].rating %> 
+			<a href="/detail/<%= listadoPeliculas[i].id %>">ver detalle</a>
+		</li>
+		<% } %>
+	</ul>
+</body>
+</html>

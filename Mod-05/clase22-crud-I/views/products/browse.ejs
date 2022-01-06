@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head', { pageTitle: 'Todos los productos' }) %>
+
+	<body>
+		<%- include('../partials/navbar') %>
+		<% if (locals.redirect !== undefined && redirect === true) { %>
+			<h3>El producto se guardó correctamente</h3>
+		<% } %>
+		<h2>Listado de productos</h2>
+		<ul>
+			<% for( let i=0; i < productsList.length; i++ ) { %>
+				<li>
+					<h2>
+						<%= productsList[i].pdtName %>
+					</h2>
+					<p><strong>$ <%= productsList[i].pdtPrice %> </strong></p>
+				</li>
+			<% } %>
+		</ul>
+	</body>
+
+</html>
