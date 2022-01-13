@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/head")  %> 
+<body>
+	<%- include("partials/navbar") %>
+	<h2>Listado de productos</h2>
+	
+	<section>
+		<% for (let i=0; i <productsDB.length; i++) { %>
+		<article>
+			<h2><%= productsDB[i].name %></h2>
+			<img src="/uploads/<%= productsDB[i].image %>" width="200">
+			<p><strong>Precio:</strong> $<%= productsDB[i].price %></p>
+			<a href="/products/<%= productsDB[i].id %>"> Ver detalles </a>	
+		</article>
+		<% } %>
+	</section>
+	
+	<!-- <section>
+		<% //productsDB.forEach(oneProduct => { %>
+		<article>
+			<h2><%= //oneProduct.name %></h2>
+			<img src="/uploads/<%= //oneProduct.image %>" width="200">
+			<p><strong>Precio:</strong> $<%= //oneProduct.price %>
+			</p>
+		</article>
+		<% //}) %>
+	</section> -->
+</body>
+</html>
+

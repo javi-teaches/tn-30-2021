@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/head")  %> 
+<body>
+	<%- include("partials/navbar") %>
+	<h2>Creación de productos</h2>
+	<form action="/products" method="post">
+		<div>
+			<label>Nombre:</label> <br>
+			<input type="text" name="name">
+		</div>
+		<div>
+			<label>Precio:</label> <br>
+			<input type="text" name="price">
+		</div>
+		<div>
+			<label>Elegí una imagen:</label> <br>
+			<input type="file" name="image">
+		</div>
+		<div>
+			<label>Categoría:</label> <br>
+			<select name="category">
+				<option value="">Elegí una opción</option>
+				<option value="Hogar y cocina">Hogar y cocina</option>
+				<option value="Video juegos">Video juegos</option>
+				<option value="Juguetes">Juguetes</option>
+				<option value="Electrónicos">Electrónicos</option>
+				<option value="Computación">Computación</option>
+			</select>
+		</div>
+		<div>
+			<label>Descripción:</label> <br>
+			<textarea name="description" cols="30" rows="10"></textarea>
+		</div>
+
+		<button type="submit">Guardar</button>
+	</form>
+</body>
+</html>

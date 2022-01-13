@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 1rem;
+	color: #222;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+ul li {
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	background-color: #222;
+	padding: 1em;
+	border-radius: 0.5em;
+}
+
+div {
+	padding: 10px 0;
+}

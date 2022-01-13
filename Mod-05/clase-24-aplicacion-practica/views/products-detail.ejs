@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partials/head")  %> 
+<body>
+	<%- include("partials/navbar") %>
+	<h2>Detalle del producto: <%=theProduct.name%></h2>
+	<img src="/uploads/<%=theProduct.image%>" width="200">
+	<p><strong>Categoría:</strong> <%=theProduct.category%> </p>
+	<p><strong>Precio:</strong> <%=theProduct.price%></p>
+	<p><strong>Descripción:</strong> <%=theProduct.description%></p>
+	<form action="/products/<%=theProduct.id%>?_method=DELETE" method="post">
+		<button type="submit">Borrar producto</button>
+	</form>
+</body>
+</html>

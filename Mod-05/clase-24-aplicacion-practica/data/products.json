@@ -1,0 +1,82 @@
+[
+ {
+  "id": 1,
+  "name": "Computer Software: Programming, Data Processing",
+  "description": "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet",
+  "price": 3608,
+  "category": "Electrónicos",
+  "image": "default-image.png"
+ },
+ {
+  "id": 2,
+  "name": "Department/Specialty Retail Stores",
+  "description": "consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in",
+  "price": 793,
+  "category": "Computación",
+  "image": "default-image.png"
+ },
+ {
+  "id": 3,
+  "name": "Programming, Data ",
+  "description": "eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor",
+  "price": 2939,
+  "category": "Electrónicos",
+  "image": "default-image.png"
+ },
+ {
+  "id": 5,
+  "name": "Real Estate Investment Trusts",
+  "description": "nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis",
+  "price": 4000,
+  "category": "Hogar y cocina",
+  "image": "default-image.png"
+ },
+ {
+  "id": 6,
+  "name": "Computer Software: Prepackaged Software",
+  "description": "consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non",
+  "price": 4476,
+  "category": "Computación",
+  "image": "default-image.png"
+ },
+ {
+  "id": 7,
+  "name": "Real Estate",
+  "description": "pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui",
+  "price": 4484,
+  "category": "Electrónicos",
+  "image": "default-image.png"
+ },
+ {
+  "id": 8,
+  "name": "Nursing data",
+  "description": "egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus",
+  "price": 989,
+  "category": "Computación",
+  "image": "default-image.png"
+ },
+ {
+  "id": 9,
+  "name": "CumpuGas Production",
+  "description": "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
+  "price": 4885,
+  "category": "Juguetes",
+  "image": "default-image.png"
+ },
+ {
+  "id": 10,
+  "name": "Oil & Gas Production",
+  "description": "diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero",
+  "price": 917,
+  "category": "Video juegos",
+  "image": "default-image.png"
+ },
+ {
+  "id": 11,
+  "name": "Prueba",
+  "price": "123",
+  "image": "black-panther.jpg",
+  "category": "Juguetes",
+  "description": "sdsfsdfsdf"
+ }
+]
