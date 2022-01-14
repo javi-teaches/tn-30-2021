@@ -42,7 +42,8 @@ const controller = {
 		// })
 		productsDB.push({
 			id: generateID(),
-			...req.body
+			...req.body,
+			image: req.file.filename
 		});
 
 		// Reescribo el archivo JSON
@@ -60,6 +61,34 @@ const controller = {
 		
 		// Redirección
 		return res.redirect("/products");
+	},
+	edit: (req, res) => {
+		const productID = Number(req.params.id);
+
+		const theProduct = productsDB.find(product => product.id === productID);
+
+		return res.render("products-edit", { theProduct });
+	},
+	update: (req, res) => {
+		const productID = Number(req.params.id);
+
+		// Mapeo el array de productos original para editar el producto
+		const finalPdts = productsDB.map(oneProduct => {
+			if (oneProduct.id === Number(req.params.id)) {
+				return { 
+					...oneProduct,
+					...req.body,
+					image: req.file ? req.file.filename : oneProduct.image
+				}
+			}
+			return oneProduct;
+		});
+
+		// Reescribo el archivo JSON
+		fs.writeFileSync(productsJSONPath, JSON.stringify(finalPdts, null, " "));
+
+		// Redirección
+		return res.redirect(`/products/${productID}`);
 	}
 }
 

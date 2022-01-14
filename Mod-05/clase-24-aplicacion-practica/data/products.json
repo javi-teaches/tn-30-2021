@@ -73,10 +73,18 @@
  },
  {
   "id": 11,
-  "name": "Prueba",
+  "name": "Test Covid",
+  "price": "789",
+  "category": "Computación",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"",
+  "image": "1642131136890_img.jpg"
+ },
+ {
+  "id": 12,
+  "name": "New product",
   "price": "123",
-  "image": "black-panther.jpg",
-  "category": "Juguetes",
-  "description": "sdsfsdfsdf"
+  "category": "Hogar y cocina",
+  "description": "Define multer object and pass the storage inside as the first property within the multer object. Then we will use the fileFilter method to validate file types in Multer. The fileFilter method is a built-in method which comes with Multer middleware",
+  "image": "1642132531950_img.jpg"
  }
 ]

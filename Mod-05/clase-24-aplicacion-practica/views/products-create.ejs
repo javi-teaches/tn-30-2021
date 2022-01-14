@@ -4,7 +4,7 @@
 <body>
 	<%- include("partials/navbar") %>
 	<h2>Creación de productos</h2>
-	<form action="/products" method="post">
+	<form action="/products" method="post" enctype="multipart/form-data">
 		<div>
 			<label>Nombre:</label> <br>
 			<input type="text" name="name">

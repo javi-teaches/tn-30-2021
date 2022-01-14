@@ -3,15 +3,16 @@
 <%- include("partials/head")  %> 
 <body>
 	<%- include("partials/navbar") %>
-	<h2>Estas editando el producto</h2>
-	<form action="">
+	<h2>Estas editando el producto: <%= theProduct.name %></h2>
+	<img src="/uploads/<%= theProduct.image %>" width="200">
+	<form action="/products/<%= theProduct.id %>?_method=PUT" method="post" enctype="multipart/form-data">
 		<div>
 			<label>Nombre:</label> <br>
-			<input type="text" name="name">
+			<input type="text" name="name" value="<%= theProduct.name %>">
 		</div>
 		<div>
 			<label>Precio:</label> <br>
-			<input type="text" name="price">
+			<input type="text" name="price" value="<%= theProduct.price %>">
 		</div>
 		<div>
 			<label>Elegí una imagen:</label> <br>
@@ -21,16 +22,18 @@
 			<label>Categoría:</label> <br>
 			<select name="category">
 				<option value="">Elegí una opción</option>
-				<option value="Hogar y cocina">Hogar y cocina</option>
-				<option value="Video juegos">Video juegos</option>
-				<option value="Juguetes">Juguetes</option>
-				<option value="Electrónicos">Electrónicos</option>
-				<option value="Computación">Computación</option>
+				<% ["Hogar y cocina", "Video juegos", "Juguetes", "Electrónicos", "Computación"].forEach(category => { %>
+					<% if (category === theProduct.category) { %>
+						<option value="<%= category %>" selected><%= category %> </option>
+					<% } else { %>
+						<option value="<%= category %>"><%= category %> </option>
+					<% } %>
+				<% }) %>
 			</select>
 		</div>
 		<div>
 			<label>Descripción:</label> <br>
-			<textarea name="description" cols="30" rows="10"></textarea>
+			<textarea name="description" cols="30" rows="10"><%= theProduct.description %></textarea>
 		</div>
 
 		<button type="submit">Guardar</button>

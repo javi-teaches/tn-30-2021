@@ -9,6 +9,7 @@
 	<p><strong>Precio:</strong> <%=theProduct.price%></p>
 	<p><strong>Descripción:</strong> <%=theProduct.description%></p>
 	<form action="/products/<%=theProduct.id%>?_method=DELETE" method="post">
+		<a href="/products/edit/<%=theProduct.id%>"> Editar </a>
 		<button type="submit">Borrar producto</button>
 	</form>
 </body>
