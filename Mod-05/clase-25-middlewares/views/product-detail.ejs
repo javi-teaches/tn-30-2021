@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Include Head -->
+<%- include('partials/head', {title: theProduct.name}) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+	<!-- /Header -->
+
+	<!-- product detail -->
+	<div class="container products-wrapper">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="products-title">Detalle del producto: <%= theProduct.name %> </h2>
+			</div>
+		</div>
+		<div class="product-detail">
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<img src="/uploads/<%= theProduct.image %>" alt="product image" class="product-detail-img">
+					<p class="product-detail-description">
+						<%= theProduct.description %>
+					</p>
+				</div>
+				<div class="col-12 col-lg-4">
+					<article class="product-detail-info">
+						<h2 class="product-detail-title"><%= theProduct.name %></h2>
+						
+							<p class="product-detail-price small">
+								<span>$<%= theProduct.price %></span>
+								/
+								<b><%= theProduct.discount %>% OFF</b>
+							</p>
+							<p class="product-detail-price">
+								<!-- Acá estamos obtenido el valor final sacando el descuento -->
+								$<%= theProduct.price - ((theProduct.price * theProduct.discount) / 100) %> 
+							</p>
+
+						<ul class="actions-list">
+							<li>
+								<i class="fas fa-credit-card"></i>
+								<p>Pagá en 12 cuotas sin interes</p>
+							</li>
+							<li>
+								<i class="fas fa-store"></i>
+								<p>Retiro gratis en locales del vendedor</p>
+							</li>
+						</ul>
+
+						<a href="#" class="buy-now-button">COMPRAR AHORA</a>
+						<hr>
+
+						<a href="/products/edit/<%= theProduct.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+						<form action="/products/<%= theProduct.id %>?_method=delete" method="POST" style="display: inline-flex">
+							<button type="submit" class="action-button delete">ELIMINAR</button>
+						</form>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /product detail -->
+
+	<!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+
+</body>	
+</html>
