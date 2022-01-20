@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercitacion</title>
+</head>
+<body>
+	<% if (data !== undefined) { %>
+		<p>Hola, soy <%= data.nombre %>, tengo <%= data.edad %> años, mi correo es <%= data.email %> y me gusta el color <%= data.color %> </p>
+	<% } else { %>
+		<p>Aún no has enviado información</p>
+		<a href="/">ir al index</a>
+	<% } %>
+
+
+</body>
+</html>

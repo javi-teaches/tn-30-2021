@@ -1,0 +1,14 @@
+<div class="fixed-bottom bg-dark">
+	<div class="container text-center text-white">
+		<p class="m-0 p-3">Copyright© <span id="year"></span> - The Awesome Node Team</p>
+	</div>
+</div>
+
+<script>
+	const yearTag = document.querySelector("#year");
+	const date = new Date();
+	yearTag.innerHTML = date.getFullYear();
+</script>
+
+<!-- Bootstrap JS -->
+<script src="/js/bootstrap.min.js"></script>
