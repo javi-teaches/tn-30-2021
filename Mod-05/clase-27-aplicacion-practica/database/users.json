@@ -1,0 +1,18 @@
+[
+ {
+  "id": 1,
+  "fullName": "Javi Herrera",
+  "email": "javi@dh.com",
+  "password": "$2a$10$CZQFM4b7mw1NZZ3B6lp1rOisky1LQO025qQ1N8vwMv0zV3EBg6tIC",
+  "country": "Colombia",
+  "avatar": "1642639248691_img.jpg"
+ },
+ {
+  "id": 2,
+  "fullName": "Rocio Carle",
+  "email": "rocio@dh.com",
+  "password": "$2a$10$ZzDhHxrGZr/CWZUifsqCBeQ3TzheTJVMxohFoqnxqPnqDnYPSlaFG",
+  "country": "Argentina",
+  "avatar": "1642639380089_img.jpg"
+ }
+]
