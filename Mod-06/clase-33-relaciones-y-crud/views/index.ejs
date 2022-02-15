@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head'); %>
+<body>
+	<%- include('partials/navbar'); %>
+	
+	<!-- Products -->
+	<div class="container my-5">
+		<ul>
+			<% products.forEach(oneProduct => { %>
+				<li> 
+					<h2><%= oneProduct.name %></h2>
+					<p>Precio: <%= oneProduct.price %> </p>
+					<p>Marca: <%= oneProduct.brand.name %>  </p> 
+					<img src="<%= oneProduct.image %>" alt="">
+				</li>
+			<% }) %>
+		</ul>
+	</div>
+	<!-- Products -->
+	
+	<%- include('partials/footer'); %>
+</body>
+</html>
