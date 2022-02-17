@@ -12,7 +12,16 @@
 					<h2><%= oneProduct.name %></h2>
 					<p>Precio: <%= oneProduct.price %> </p>
 					<p>Marca: <%= oneProduct.brand.name %>  </p> 
-					<img src="<%= oneProduct.image %>" alt="">
+					<img src="<%= oneProduct.image %>" width="20%">
+					<% if (oneProduct.categories.length > 0) { %>
+						<% oneProduct.categories.forEach(category => { %>
+							<p>✅ <i> <%= category.name %> </i></p>
+						<% }) %>
+					<% } %>
+					<br>
+					<a class="btn btn-info my-4" href="/products/<%= oneProduct.id %>">VER DETALLE</a>
+					<hr>
+					<br><br><br><br>
 				</li>
 			<% }) %>
 		</ul>

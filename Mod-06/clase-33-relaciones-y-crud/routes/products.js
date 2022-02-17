@@ -8,10 +8,16 @@ const controller = require('../controllers/products');
 router.get("/", controller.show);
 
 // Formulario para crear un producto
-router.get("/create", controller.create);
+router.get("/create", controller.createForm);
 
 // Guardar un producto
 router.post('/create', controller.store);
+
+// Formulario para actualizar un producto
+router.get("/update/:id", controller.updateForm);
+
+// Formulario para actualizar un producto
+router.patch("/update/:id", controller.update);
 
 // Eliminar un producto
 router.delete('/:id', controller.destroy);

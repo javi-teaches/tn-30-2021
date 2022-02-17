@@ -6,7 +6,9 @@ module.exports = (sequelize, DataTypes) => {
 		image: DataTypes.STRING,
 		description: DataTypes.STRING,
 		brandId: DataTypes.INTEGER,
-	}, {});
+	}, {
+		paranoid: true
+	});
 
 	Product.associate = function (models) {
 		// associations can be defined here

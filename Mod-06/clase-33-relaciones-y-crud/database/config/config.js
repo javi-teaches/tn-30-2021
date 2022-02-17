@@ -4,7 +4,10 @@ module.exports = {
     "password": "root",
     "database": "ozom_market",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    // "define": {
+    //   "paranoid": true,
+    // }
   },
   "test": {
     "username": "root",
