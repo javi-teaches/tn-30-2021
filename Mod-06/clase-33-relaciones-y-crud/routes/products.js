@@ -5,6 +5,8 @@ const router = express.Router();
 const controller = require('../controllers/products');
 
 // Mostrar todos los productos
+router.get("/mock", controller.mock);
+
 router.get("/", controller.show);
 
 // Formulario para crear un producto
