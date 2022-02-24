@@ -31,8 +31,9 @@ module.exports = {
 		})
 	},
 
-	store: (req, res) => {
-		return res.status(200).json(req.body);
+	store: async (req, res) => {
+		const movieStored = await Movie.create(req.body);
+		return res.status(200).json(movieStored);
 	},
 	
 	detail: async (req, res) => {
