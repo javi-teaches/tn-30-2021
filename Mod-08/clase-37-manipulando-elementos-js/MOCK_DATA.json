@@ -1,0 +1,351 @@
+[{
+		"name": "Mueller LLC",
+		"price": 152066.32,
+		"image": "http://dummyimage.com/302x513.png/5fa2dd/ffffff",
+		"description": "Nondisplaced oblique fracture of shaft of unspecified fibula, subsequent encounter for closed fracture with routine healing",
+		"brandId": 4
+	},
+	{
+		"name": "Rau, Koch and McCullough",
+		"price": 855988.0,
+		"image": "http://dummyimage.com/484x372.png/dddddd/000000",
+		"description": "Strain of muscle(s) and tendon(s) of anterior muscle group at lower leg level, right leg, initial encounter",
+		"brandId": 1
+	},
+	{
+		"name": "Boehm, Quitzon and Lind",
+		"price": 617297.15,
+		"image": "http://dummyimage.com/372x436.png/ff4444/ffffff",
+		"description": "Galeazzi's fracture of left radius, subsequent encounter for closed fracture with malunion",
+		"brandId": 2
+	},
+	{
+		"name": "Dicki, Hilll and Boehm",
+		"price": 369099.37,
+		"image": "http://dummyimage.com/519x440.png/ff4444/ffffff",
+		"description": "Other childhood disintegrative disorder",
+		"brandId": 6
+	},
+	{
+		"name": "Dickens, Leannon and Hessel",
+		"price": 108954.18,
+		"image": "http://dummyimage.com/425x552.png/5fa2dd/ffffff",
+		"description": "Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester, fetus 4",
+		"brandId": 1
+	},
+	{
+		"name": "Reinger LLC",
+		"price": 477886.81,
+		"image": "http://dummyimage.com/381x317.png/cc0000/ffffff",
+		"description": "Pathological fracture in other disease, left ulna",
+		"brandId": 1
+	},
+	{
+		"name": "Goldner Group",
+		"price": 811294.28,
+		"image": "http://dummyimage.com/569x300.png/ff4444/ffffff",
+		"description": "Nondisplaced pilon fracture of unspecified tibia",
+		"brandId": 2
+	},
+	{
+		"name": "Quitzon, Dickens and Thompson",
+		"price": 386846.02,
+		"image": "http://dummyimage.com/535x555.png/cc0000/ffffff",
+		"description": "Nondisplaced fracture of neck of other metacarpal bone",
+		"brandId": 3
+	},
+	{
+		"name": "Haag and Sons",
+		"price": 369008.97,
+		"image": "http://dummyimage.com/381x600.png/cc0000/ffffff",
+		"description": "Crushing injury of right shoulder and upper arm, initial encounter",
+		"brandId": 6
+	},
+	{
+		"name": "Goodwin, Dare and Turner",
+		"price": 516511.48,
+		"image": "http://dummyimage.com/386x484.png/cc0000/ffffff",
+		"description": "Handgun discharge, undetermined intent, subsequent encounter",
+		"brandId": 4
+	},
+	{
+		"name": "Vandervort-Davis",
+		"price": 858496.27,
+		"image": "http://dummyimage.com/312x432.png/dddddd/000000",
+		"description": "Drug or chemical induced diabetes mellitus with proliferative diabetic retinopathy with macular edema",
+		"brandId": 4
+	},
+	{
+		"name": "Towne LLC",
+		"price": 558368.0,
+		"image": "http://dummyimage.com/302x557.png/cc0000/ffffff",
+		"description": "Toxic effect of harmful algae and algae toxins, assault",
+		"brandId": 5
+	},
+	{
+		"name": "Fay LLC",
+		"price": 45409.76,
+		"image": "http://dummyimage.com/466x522.png/5fa2dd/ffffff",
+		"description": "Other specified multiple gestation with two or more monochorionic fetuses, third trimester",
+		"brandId": 4
+	},
+	{
+		"name": "Bergstrom Group",
+		"price": 41342.65,
+		"image": "http://dummyimage.com/345x385.png/dddddd/000000",
+		"description": "Crushing injury of other specified parts of neck, initial encounter",
+		"brandId": 1
+	},
+	{
+		"name": "Walter-Quigley",
+		"price": 731268.04,
+		"image": "http://dummyimage.com/428x363.png/cc0000/ffffff",
+		"description": "Age-related osteoporosis with current pathological fracture, right hand, subsequent encounter for fracture with routine healing",
+		"brandId": 3
+	},
+	{
+		"name": "Schoen, Ondricka and Kertzmann",
+		"price": 269024.09,
+		"image": "http://dummyimage.com/513x323.png/cc0000/ffffff",
+		"description": "Toxic effect of detergents, accidental (unintentional)",
+		"brandId": 4
+	},
+	{
+		"name": "Yundt-Gorczany",
+		"price": 428059.98,
+		"image": "http://dummyimage.com/586x406.png/ff4444/ffffff",
+		"description": "Endometriosis of fallopian tube",
+		"brandId": 1
+	},
+	{
+		"name": "Batz, Romaguera and Frami",
+		"price": 498529.29,
+		"image": "http://dummyimage.com/359x492.png/5fa2dd/ffffff",
+		"description": "Atypical femoral fracture",
+		"brandId": 2
+	},
+	{
+		"name": "Russel Inc",
+		"price": 950206.4,
+		"image": "http://dummyimage.com/463x548.png/ff4444/ffffff",
+		"description": "Pedal cycle rider injured in collision with other pedal cycle",
+		"brandId": 3
+	},
+	{
+		"name": "Volkman, Hoppe and Kunze",
+		"price": 618548.73,
+		"image": "http://dummyimage.com/546x398.png/5fa2dd/ffffff",
+		"description": "Acute suppurative otitis media without spontaneous rupture of ear drum, recurrent, right ear",
+		"brandId": 4
+	},
+	{
+		"name": "Purdy, Littel and Hahn",
+		"price": 59177.48,
+		"image": "http://dummyimage.com/449x450.png/cc0000/ffffff",
+		"description": "Minor laceration of superior mesenteric artery, subsequent encounter",
+		"brandId": 3
+	},
+	{
+		"name": "Botsford-Schmeler",
+		"price": 11903.98,
+		"image": "http://dummyimage.com/500x575.png/cc0000/ffffff",
+		"description": "Unspecified injury of plantar artery of right foot, initial encounter",
+		"brandId": 5
+	},
+	{
+		"name": "Jacobi, Daugherty and O'Reilly",
+		"price": 252568.57,
+		"image": "http://dummyimage.com/467x481.png/5fa2dd/ffffff",
+		"description": "Open bite of right index finger with damage to nail",
+		"brandId": 1
+	},
+	{
+		"name": "Gulgowski-Gleason",
+		"price": 720620.83,
+		"image": "http://dummyimage.com/398x378.png/cc0000/ffffff",
+		"description": "Underdosing of sulfonamides",
+		"brandId": 2
+	},
+	{
+		"name": "Quigley-Cartwright",
+		"price": 203558.97,
+		"image": "http://dummyimage.com/586x438.png/cc0000/ffffff",
+		"description": "Poisoning by other hormone antagonists, accidental (unintentional), initial encounter",
+		"brandId": 6
+	},
+	{
+		"name": "Bergnaum, Zemlak and Gutmann",
+		"price": 800462.65,
+		"image": "http://dummyimage.com/467x576.png/ff4444/ffffff",
+		"description": "Cardiac tamponade",
+		"brandId": 5
+	},
+	{
+		"name": "Schuppe Inc",
+		"price": 599423.31,
+		"image": "http://dummyimage.com/305x300.png/ff4444/ffffff",
+		"description": "Salter-Harris Type III physeal fracture of lower end of radius, left arm, subsequent encounter for fracture with malunion",
+		"brandId": 1
+	},
+	{
+		"name": "Dare Group",
+		"price": 607225.86,
+		"image": "http://dummyimage.com/516x461.png/cc0000/ffffff",
+		"description": "Unspecified injury of unspecified blood vessel at hip and thigh level, right leg, subsequent encounter",
+		"brandId": 2
+	},
+	{
+		"name": "Predovic-Altenwerth",
+		"price": 47227.5,
+		"image": "http://dummyimage.com/472x355.png/cc0000/ffffff",
+		"description": "Ocular laceration without prolapse or loss of intraocular tissue, left eye, initial encounter",
+		"brandId": 2
+	},
+	{
+		"name": "Kiehn LLC",
+		"price": 315645.4,
+		"image": "http://dummyimage.com/347x503.png/ff4444/ffffff",
+		"description": "Blister (nonthermal) of breast, left breast, sequela",
+		"brandId": 3
+	},
+	{
+		"name": "Hilpert, DuBuque and Feil",
+		"price": 978495.04,
+		"image": "http://dummyimage.com/437x421.png/dddddd/000000",
+		"description": "Puncture wound with foreign body of left thumb without damage to nail, sequela",
+		"brandId": 5
+	},
+	{
+		"name": "Lynch Inc",
+		"price": 454214.77,
+		"image": "http://dummyimage.com/300x474.png/dddddd/000000",
+		"description": "Displaced midcervical fracture of right femur, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing",
+		"brandId": 3
+	},
+	{
+		"name": "Sipes-Murazik",
+		"price": 76023.87,
+		"image": "http://dummyimage.com/342x406.png/ff4444/ffffff",
+		"description": "Drowning and submersion in natural water, undetermined intent, initial encounter",
+		"brandId": 2
+	},
+	{
+		"name": "Brown Inc",
+		"price": 702709.89,
+		"image": "http://dummyimage.com/548x418.png/dddddd/000000",
+		"description": "Complete traumatic amputation at level between right shoulder and elbow",
+		"brandId": 3
+	},
+	{
+		"name": "Williamson-Gibson",
+		"price": 54565.17,
+		"image": "http://dummyimage.com/578x477.png/ff4444/ffffff",
+		"description": "Unspecified injury of muscle, fascia and tendon of other parts of biceps, right arm, initial encounter",
+		"brandId": 6
+	},
+	{
+		"name": "Champlin and Sons",
+		"price": 852169.22,
+		"image": "http://dummyimage.com/593x468.png/cc0000/ffffff",
+		"description": "Unspecified open wound of abdominal wall, periumbilic region with penetration into peritoneal cavity, subsequent encounter",
+		"brandId": 6
+	},
+	{
+		"name": "Keeling Group",
+		"price": 920617.16,
+		"image": "http://dummyimage.com/446x583.png/cc0000/ffffff",
+		"description": "Type III traumatic spondylolisthesis of second cervical vertebra",
+		"brandId": 5
+	},
+	{
+		"name": "Crist, O'Keefe and Haag",
+		"price": 136399.37,
+		"image": "http://dummyimage.com/587x446.png/5fa2dd/ffffff",
+		"description": "Fracture of shaft of first metacarpal bone",
+		"brandId": 5
+	},
+	{
+		"name": "Kuhn Inc",
+		"price": 917724.63,
+		"image": "http://dummyimage.com/327x411.png/5fa2dd/ffffff",
+		"description": "Monoplegia of upper limb following nontraumatic subarachnoid hemorrhage affecting unspecified side",
+		"brandId": 6
+	},
+	{
+		"name": "Borer, Kunde and Gulgowski",
+		"price": 327253.79,
+		"image": "http://dummyimage.com/391x490.png/dddddd/000000",
+		"description": "Strain of extensor muscle, fascia and tendon of right little finger at forearm level, initial encounter",
+		"brandId": 1
+	},
+	{
+		"name": "Schuster, King and Schultz",
+		"price": 552660.94,
+		"image": "http://dummyimage.com/488x342.png/ff4444/ffffff",
+		"description": "Graphite fibrosis (of lung)",
+		"brandId": 3
+	},
+	{
+		"name": "Cruickshank Inc",
+		"price": 691863.88,
+		"image": "http://dummyimage.com/513x407.png/ff4444/ffffff",
+		"description": "Unspecified injury of left elbow",
+		"brandId": 5
+	},
+	{
+		"name": "Tillman and Sons",
+		"price": 68472.03,
+		"image": "http://dummyimage.com/554x350.png/ff4444/ffffff",
+		"description": "Separation of muscle (nontraumatic), left forearm",
+		"brandId": 5
+	},
+	{
+		"name": "Stiedemann, Reichert and Schoen",
+		"price": 556456.65,
+		"image": "http://dummyimage.com/420x368.png/ff4444/ffffff",
+		"description": "Laceration of unspecified quadriceps muscle, fascia and tendon, initial encounter",
+		"brandId": 6
+	},
+	{
+		"name": "Hirthe and Sons",
+		"price": 991093.93,
+		"image": "http://dummyimage.com/397x304.png/dddddd/000000",
+		"description": "Burn of first degree of multiple sites of left wrist and hand, initial encounter",
+		"brandId": 3
+	},
+	{
+		"name": "Koelpin Inc",
+		"price": 521204.0,
+		"image": "http://dummyimage.com/381x563.png/5fa2dd/ffffff",
+		"description": "Other disorders of continuity of bone, shoulder",
+		"brandId": 4
+	},
+	{
+		"name": "Ebert, Crist and McCullough",
+		"price": 103677.35,
+		"image": "http://dummyimage.com/521x567.png/cc0000/ffffff",
+		"description": "Food in other parts of respiratory tract causing asphyxiation, initial encounter",
+		"brandId": 4
+	},
+	{
+		"name": "Johns-Daniel",
+		"price": 39373.9,
+		"image": "http://dummyimage.com/599x587.png/cc0000/ffffff",
+		"description": "Exposure to other man-made environmental factors, sequela",
+		"brandId": 1
+	},
+	{
+		"name": "Crona Inc",
+		"price": 763567.23,
+		"image": "http://dummyimage.com/314x447.png/ff4444/ffffff",
+		"description": "Circadian rhythm sleep disorders",
+		"brandId": 4
+	},
+	{
+		"name": "Muller, Dietrich and Murray",
+		"price": 50200.07,
+		"image": "http://dummyimage.com/350x324.png/ff4444/ffffff",
+		"description": "Other physeal fracture of upper end of unspecified femur, subsequent encounter for fracture with routine healing",
+		"brandId": 4
+	}
+]

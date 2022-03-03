@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head'); %>
+<body>
+	<%- include('partials/navbar'); %>
+	
+	<!-- Products -->
+	<div class="container my-5">
+		<h1 class="alert alert-success p-5">Hola mundo</h1>
+		<ul class="row">
+			<% products.forEach(oneProduct => { %>
+				<li class="col-4"> 
+					<h2><%= oneProduct.name %></h2>
+					<p>Precio: <%= oneProduct.price %> </p>
+					<p>Marca: <%= oneProduct.brand.name %>  </p> 
+					<img src="<%= oneProduct.image %>" width="20%">
+					<% if (oneProduct.categories.length > 0) { %>
+						<% oneProduct.categories.forEach(category => { %>
+							<p>✅ <i> <%= category.name %> </i></p>
+						<% }) %>
+					<% } %>
+					<br>
+					<a class="btn btn-info my-4" href="/products/<%= oneProduct.id %>">VER DETALLE</a>
+					<hr>
+				</li>
+			<% }) %>
+		</ul>
+	</div>
+	<!-- Products -->
+	
+	<%- include('partials/footer'); %>
+	
+	<script src="/js/demo.js"></script>
+</body>
+</html>
