@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head'); %>
+<body>
+	<%- include('partials/navbar'); %>
+	
+	<!-- Container -->
+	<div class="container" style="margin-top: 40px;">
+		<div class="row">
+			<div class="col-12">
+				<h2>Producto: <%= productFinded.name %>  </h2>
+				<img src="<%= productFinded.image %>" width="200">
+				<p><b>Description:</b> <%= productFinded.description %> </p>
+				<p><b>Marca:</b> <%= productFinded.brand.name %> </p>
+				<% if (productFinded.categories.length > 0) { %>
+					<% productFinded.categories.forEach(category=> { %>
+						<p>✅ <i> <%= category.name %></i></p>
+					<% }) %>
+				<% } %>
+				<a href="/products/update/<%= productFinded.id  %>" class="btn btn-warning">Editar</a>
+				<form class="d-inline-block" action="/products/<%= productFinded.id %>?_method=delete" method="post">
+					<button class="btn btn-danger" type="submit">BORRAR</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Container -->
+	
+	<%- include('partials/footer'); %>
+</body>
+</html>
