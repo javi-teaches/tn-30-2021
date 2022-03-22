@@ -22,9 +22,5 @@ app.set('views', path.resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
 
 
-
-
-
-
 //Activando el servidor desde express
 app.listen('3001', () => console.log('Servidor corriendo en el puerto 3001'));

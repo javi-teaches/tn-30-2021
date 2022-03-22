@@ -30,7 +30,7 @@ module.exports = (sequelize, dataTypes) => {
     };
     
     let config = {
-        paranoid: true,
+        // paranoid: true,
         timestamps: true,
         underscored: true,
     }
@@ -41,6 +41,11 @@ module.exports = (sequelize, dataTypes) => {
         Movie.belongsTo(models.Genre, { // models.Genre -> Genres es el valor de alias en genres.js
             as: "genre",
             foreignKey: "genre_id"
+        })
+        
+        Movie.hasMany(models.Actor, { // models.Genre -> Genres es el valor de alias en genres.js
+            as: "actor_favorite_movie",
+            foreignKey: "favorite_movie_id"
         })
 
         Movie.belongsToMany(models.Actor, { // models.Actor -> Actors es el valor de alias en actor.js
