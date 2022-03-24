@@ -24,6 +24,8 @@ const controller = {
 	store: async (req, res) => {
 		const productStored = await Product.create(req.body);
 		productStored.addCategories(req.body.categories);
+		console.log("CREACIÓN DE PRODUCTO");
+		console.log(productStored);
 		return res.redirect("/products");
 	},
 	
@@ -46,8 +48,12 @@ const controller = {
 		const brands = await Brand.findAll({});
 		return res.render("update", { productFinded, categories, brands });
 	},
-
+	
 	update: async (req, res) => {
+		const productID = req.params.id;
+		const productUpdated = await Product.update(req.body, {where: {id: productID}});
+		console.log("ACTUALIZACIÓN DE PRODUCTO");
+		console.log(productUpdated);
 		return res.send(req.params.id);
 	},
 

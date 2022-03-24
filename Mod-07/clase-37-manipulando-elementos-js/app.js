@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(methodOverride("_method"));
 app.use(express.static(path.resolve(__dirname, "public")));
 
-const PORT = 3000;
+const PORT = 5500;
 
 app.listen(PORT, () => console.log(`App running in port: ${PORT}`));
 
