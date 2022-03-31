@@ -21,6 +21,5 @@ app.use("/api", apiRouter);
 app.set('views', path.resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
 
-
 //Activando el servidor desde express
-app.listen('3001', () => console.log('Servidor corriendo en el puerto 3001'));
+app.listen(5500, () => console.log('Servidor corriendo en el puerto 5500'));

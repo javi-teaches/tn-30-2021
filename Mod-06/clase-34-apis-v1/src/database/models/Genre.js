@@ -1,5 +1,3 @@
-// const { TINYINT, INTEGER } = require("sequelize/types");
-
 module.exports = (sequelize, dataTypes) => {
     let alias = 'Genre';
     let cols = {

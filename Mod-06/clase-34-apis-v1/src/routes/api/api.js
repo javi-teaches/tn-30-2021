@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const movieController = require("../../controllers/api/movies");
+const genreController = require("../../controllers/api/genres");
 
 // === GET === http://localhost:3000/api/movies
 router.get("/movies", movieController.show);
@@ -22,7 +23,7 @@ router.get("/movies/:id", movieController.detail);
 router.delete("/movies/:id", movieController.delete);
 
 // === GET === http://localhost:3000/api/genres
-// router.get("/genres")
+router.get("/genres", genreController.all)
 
 // === GET === http://localhost:3000/api/actors
 // router.get("/actors")
