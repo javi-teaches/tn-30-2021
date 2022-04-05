@@ -1,10 +1,10 @@
 {
-  "name": "myApp",
+  "name": "my-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/app.js"
+    "start:dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",

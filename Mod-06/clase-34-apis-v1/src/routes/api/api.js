@@ -25,6 +25,9 @@ router.delete("/movies/:id", movieController.delete);
 // === GET === http://localhost:3000/api/genres
 router.get("/genres", genreController.all)
 
+// === GET === http://localhost:3000/api/genres/:id
+router.get("/genres/:id", genreController.detail)
+
 // === GET === http://localhost:3000/api/actors
 // router.get("/actors")
 
