@@ -1,4 +1,6 @@
 const express = require('express');
+const express = require('express');
+const { body } = require('express-validator');
 const router = express.Router();
 
 const movieController = require("../../controllers/api/movies");
@@ -29,6 +31,7 @@ router.get("/genres", genreController.all)
 router.get("/genres/:id", genreController.detail)
 
 // === GET === http://localhost:3000/api/actors
-// router.get("/actors")
+router.get("/genresView", genreController.test);
+router.post("/genres", [], genreController.testPost);
 
 module.exports = router;

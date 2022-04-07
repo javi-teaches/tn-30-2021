@@ -27,5 +27,11 @@ module.exports = {
       })
     }
     
+  },
+  test: async (req, res) => {
+    return res.render("genres");
+  },
+  testPost: async (req, res) => {
+
   }
 };
