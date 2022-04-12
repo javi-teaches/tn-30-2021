@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include('partials/head'); %>
+<body>
+	<%- include('partials/navbar'); %>
+	
+	<!-- Register-Form -->
+	<div class="container my-5">
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<h2>Crear un producto</h2>
+	
+				<form method="POST" action="/products/create">
+					<div class="row">
+						<div class="col-md-6 my-1">
+							<div class="form-group">
+								<label><b>Nombre:</b></label>
+								<input
+									id="nameField"
+									type="text" 
+									name="name" 
+									class="form-control"
+								>
+								<div class="alert alert-danger">
+									<% if (locals.errors && locals.errors.name) { %> 
+										<%= locals.errors.name.msg %> 
+									<% } %> 
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 my-1">
+							<div class="form-group">
+								<label><b>Precio:</b></label>
+								<input 
+									type="text" 
+									name="price" 
+									class="form-control"
+								>
+							</div>
+						</div>
+						<div class="col-md-6 my-1">
+							<div class="form-group">
+								<label><b>Imagen:</b></label>
+								<input 
+									type="text" 
+									name="image" 
+									class="form-control"
+								>
+							</div>
+						</div>
+						<div class="col-md-6 my-1">
+							<div class="form-group">
+								<label><b>Marca:</b></label>
+								<select name="brandId" class="form-select">
+									<option value="">Selecciona una opción</option>
+									<% brands.forEach(oneBrand => { %>
+									<option value="<%= oneBrand.id %>"><%= oneBrand.name %></option>
+									<% }) %>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6 my-1">
+							<div class="form-group">
+								<label><b>Categoria:</b></label>
+								<select name="categories" class="form-select" multiple>
+									<option value="">Selecciona varias opciones</option>
+									<% categories.forEach(oneCategory => { %>
+									<option value="<%= oneCategory.id %>"><%= oneCategory.name %></option>
+									<% }) %>
+								</select>
+							</div>
+						</div>
+					
+						<div class="col-md-12 my-1">
+							<div class="form-group">
+								<label><b>Descripción:</b></label>
+								<textarea name="description" class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="col-12 my-3">
+							<button type="submit" class="btn btn-primary" >Guardar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //Register-Form -->
+	
+	<%- include('partials/footer'); %>
+
+	<script src="/js/createValidations.js"></script>
+</body>
+</html>

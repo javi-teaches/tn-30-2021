@@ -32,6 +32,6 @@ module.exports = {
     return res.render("genres");
   },
   testPost: async (req, res) => {
-
+    return res.json(req.body)
   }
 };
